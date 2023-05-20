@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LaunchPad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LaunchPad</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+            </ul>
+            <div class="login">
+              <button class="mx-2 btn btn-warning hover-shadow" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+              <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#SignupModal">Signup</button>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+    
+
+    <!--Login Modal -->
+    <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 shadow">
+              <div class="modal-header p-5 pb-4 border-bottom-0">
+                <h1 class="fw-bold mb-0 fs-2">Log in to your account.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+        
+              <div class="modal-body p-5 pt-0">
+                <form class="">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <button class="w-100 mb-2 btn btn-lg rounded-3 btn-warning" type="submit">Log In</button>
+                  <hr class="my-4">
+                  <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                  <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                    <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg>
+                    Log In with Google
+                  </button>
+                </form>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--Signup Modal -->
+    <div class="modal fade" id="SignupModal" tabindex="-1" aria-labelledby="SignupModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content rounded-4 shadow">
+              <div class="modal-header p-5 pb-4 border-bottom-0">
+                <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+        
+              <div class="modal-body p-5 pt-0">
+                <form class="">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                  <button class="w-100 mb-2 btn btn-lg rounded-3 btn-warning" type="submit">Sign up</button>
+                  <small class="text-body-secondary">By clicking Sign up, you agree to the terms of use.</small>
+                  <hr class="my-4">
+                  <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                  <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                    <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"></use></svg>
+                    Sign up with Google
+                  </button>
+                </form>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://dmresourcecenter.com/wp-content/uploads/2014/10/cms-header-1400x400.jpg" class="bgimg d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Welcome to LaunchPad</h5>
+              <p>Take the quiz and find your passion through Us.</p>
+              <a href="form.html"><button class="btn btn-warning">Take a quiz</button></a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+      <div class="container box">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card text-center h-100">
+              <div class="card-body">
+                <h5 class="card-title">Personalized Learning Path</h5>
+                <p class="card-text">We help individuals discover their ideal career path by providing personalized assessments,roadmap and job matching algorithms.</p>
+                <a href="#" class="btn btn-warning">Check Out</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center h-100">
+              <div class="card-body">
+                <h5 class="card-title">Community</h5>
+                <p class="card-text">We establish community where students can interact with each other, share their progress, and get support from their peers.</p>
+                <a href="#" class="btn btn-warning">Check Out</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center h-100">
+              <div class="card-body">
+                <h5 class="card-title">Connect with Recruiters</h5>
+                <p class="card-text">Connect with industry partners to work on real-world projects and internships to students. </p>
+                <br>
+                <a href="#" class="btn btn-warning">Check Out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+      <section class="pt-3 pb-5">
+        <div class="container">
+          <h1 class="text-center">Popular Learning Paths</h1>
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+    
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card Paths">
+                                            <img class="img-fluid" alt="100%x280" src="https://www.miateknoloji.com/images/mia-teknoloji-siber-guvenlik-hizmetleri-600x400.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cyber Security</h4>
+                                                <p class="card-text">Cybersecurity involves protecting computer systems and networks from unauthorized access, attacks, and data breaches.</p>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card Paths">
+                                            <img class="img-fluid" alt="100%x280" src="https://www.perfecto.io/sites/default/files/image/2020-06/social-blog-deliver-mobile-ux.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">UX/UX Design</h4>
+                                                <p class="card-text"> UX/UI design involves creating user-friendly and visually appealing digital products such as websites and mobile apps.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card Paths">
+                                            <img class="img-fluid" alt="100%x280" src="https://st4.depositphotos.com/12981370/24312/i/600/depositphotos_243120806-stock-photo-programmer-working-software-development-coding.jpg">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Web Development</h4>
+                                                <p class="card-text">Web development is a popular learning path for employment that involves building and maintaining websites.  </p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="card text-bg-dark">
+      <img src="https://images.unsplash.com/photo-1623281285066-bb6de12aed4d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=400&ixid=MnwxfDB8MXxyYW5kb218MHx8Y29kZXJ8fHx8fHwxNjgyMzM4Njkx&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1400" class="card-img" alt="...">
+      <div class="huehue card-img-overlay">
+        <h2 class=" text-center card-title">Discover Your Dream Career Now!</h2>
+        <p class="text-center card-text fw-semibold">With our expert guidance and job matching algorithms, you can explore a wide range of fulfilling career options that align with your unique profile.</p>
+        <button class="btn btn-warning">Take a quiz</button>
+      </div>
+    </div>
+
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="text-muted">© 2023 IronicallyDevelopers, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
